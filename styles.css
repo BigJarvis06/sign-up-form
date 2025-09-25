@@ -1,0 +1,20 @@
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-side {
+    min-width: 25%;
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+}
+
+.form-side {
+    max-width: 50%;
+}
+
+
+
+.logo p {
+    font-size: 96px;
+}
+
