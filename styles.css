@@ -9,12 +9,15 @@
 
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 
 .page-wrapper {
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 .logo-side {
@@ -24,6 +27,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    gap: 75vh;
 }
 
 .form-side {
@@ -60,7 +64,6 @@ body {
 .footer-text, .footer-text a {
     color: lightgrey;
     align-self: center;
-    margin-top: 100%;
 }
 
 
