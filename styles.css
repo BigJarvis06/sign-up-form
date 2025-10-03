@@ -15,6 +15,17 @@ body {
 
 p {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f2f2f;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
 }
 
 .page-wrapper {
@@ -31,7 +42,7 @@ p {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 60%;
+    gap: 58%;
 }
 
 .form-side div:nth-of-type(odd) {
@@ -79,7 +90,6 @@ p {
 }
 
 .header p {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 26px;
     color: #1f1f1f;
@@ -94,8 +104,26 @@ p {
     height: 30%;
     background-color: #f9f9f9;
     box-shadow: 0px 5px 15px 0px lightgray;
+    padding: 16px 0 0 48px;
 }
 
+.page-form > p {
+    font-weight: bold;
+    font-size: 22px;
+    color: #1f1f1f;
+}
+
+#my-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 3);
+    padding-top: 24px;
+}
 
 
 
