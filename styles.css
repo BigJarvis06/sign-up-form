@@ -35,6 +35,11 @@ input:focus {
     box-shadow: #2f2f2f50 3px 3px 3px 0px;
 }
 
+input[type="password"]:invalid {
+    border-color: red;
+    outline: none;
+}
+
 label {
     font-family: Arial, Helvetica, sans-serif;
     color: #2f2f2f;
